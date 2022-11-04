@@ -1,0 +1,93 @@
+/* HomePageVideos */
+/*body{
+  overflow-y: auto;
+  overflow-x: hidden;
+}*/
+
+#HomePageVideos{
+  position: fixed;
+  top: 70px;
+  right: 60px;
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-column-gap: 15px;
+  grid-row-gap: 40px;
+}
+
+.VideoBox{
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.VideoBoxImageContainer{
+  position: relative;
+}
+
+.VideoBoxCoverImage{
+  width: 100%;
+  height: 65%;
+  margin-bottom: 5px;
+}
+
+.VideoBoxVideoLength{
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-family: "Robot", sans-serif;
+  background-color: #000000CC;
+  padding: 2px 3px 2px 3px;
+  border-radius: 2px;
+  margin: 0;
+  right: 8px;
+  bottom: 14px;
+}
+
+.VideoBoxInfo{
+  width: 100%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: 18% 82%;
+}
+
+.VideoBoxChannelImage{
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.VideoBoxTexts{
+  color: white;
+}
+
+.VideoBoxTitle{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.VideoBoxChannelName{
+  padding: 0;
+  margin: 3px;
+  font-size: 14px;
+  color: #AAAAAA;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.VideoBoxChannelName:hover{
+  color: white;
+}
+
+.VideoBoxViews{
+  padding: 0;
+  margin: 3px;
+  font-size: 14px;
+  color: #AAAAAA;
+  font-family: Arial, Helvetica, sans-serif;
+}

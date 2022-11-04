@@ -1,0 +1,126 @@
+/* Navbar */
+nav{
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(32, 32, 32, 0.98);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#NavLeft{
+  width: 20%;
+}
+
+#NavMenuButton{
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#NavMenuButton:active{
+  animation: menuButton 1s ease;
+}
+
+#NavBrand{
+  width: 80px;
+  height: 26px;
+}
+
+#Account{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+@keyframes menuButton{
+  0%{
+    background-color: rgb(94, 94, 94);
+  }
+
+  25%{
+    background-color: rgb(155, 153, 151);
+  }
+
+  50%{
+    background-color: rgb(221, 218, 215);
+  }
+
+  75%{
+    background-color: rgb(70, 69, 68);
+  }
+
+  100%{
+    background-color: transparent;
+  }
+}
+
+
+
+#NavMiddle{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+#NavMiddle > input{
+  width: 70%;
+  height: 30px;
+  background-color: rgb(24, 24, 24);
+  border: solid 1px rgb(75, 73, 73);
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+#NavMiddle > input:focus{
+  border-color:#1C62B9;
+}
+
+#NavSearchButton{
+  background-color:  rgb(75, 73, 73);
+  border: none;
+  width: 65px;
+  height: 34px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+
+
+#NavRight{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+#NavRight > img {
+  cursor: pointer;
+}
+
+#SignInButton{
+  width: 90px;
+  height: 35px;
+  border: solid 1px #3EA6FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3EA6FF;
+}
+
+#SignInButton > img{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+#SignInButton > p{
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}

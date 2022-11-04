@@ -1,0 +1,101 @@
+#UploadVideoForm{
+    margin: 100px auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(42, 42, 42);
+}
+
+#Uploads{
+    display: flex;
+    justify-content: space-between;
+}
+
+#VideoUploadButton{
+    width: 550px;
+    height: 350px;
+    border: solid 1px white;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ImageUploadButton{
+    width: 250px;
+    height: 150px;
+    border: solid 1px white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#UploadDescriptionsContainer{
+    margin-top: 20px;
+}
+
+#UploadTitleContainer{
+    display: flex;
+    align-items: center;
+}
+
+#UploadChannelImage{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#title{
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    color: white;
+    font-size: 16px;
+    width: 53%;
+    border-bottom: solid 1px #cc0000;
+}
+
+#description{
+    background-color: transparent;
+    border: none;
+    margin: 20px 0 0 50px;
+    color: white;
+    border-bottom: solid 1px #cc0000;
+    resize: vertical;
+    width: 53%;
+    height: 250px;
+    resize: none;
+    font-size: 14px;
+}
+#description::-webkit-scrollbar {
+    width: 7px;
+}
+
+#description::-webkit-scrollbar-track {
+background: transparent;
+}
+
+#description::-webkit-scrollbar-thumb {
+background: rgb(94, 94, 94);
+}
+  
+
+#UploadVideoButton{
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #cc0000;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}

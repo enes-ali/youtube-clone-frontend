@@ -1,0 +1,50 @@
+#LoginForm{
+    margin-top: 10%;
+    background-color: rgb(42, 42, 42);
+    border: solid 1px red;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CircleYoutubeIcon{
+    position: absolute;
+    top: -40px;
+    width: 70px;
+    height: 70px;
+}
+
+#LoginForm > div{
+    margin-bottom: 20px;
+}
+
+#LoginForm > div > label{
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#LoginForm > div > input{
+    background-color: transparent;
+    border: solid 1px red;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+}
+
+#loginButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #cc0000;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}

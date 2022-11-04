@@ -1,0 +1,121 @@
+#ChannelPoster{
+    width: 100%;
+    height: 185px;
+    background-size: cover;
+}
+
+#ContentContainer{
+    position: sticky;
+    top: -54px;
+}
+
+#ChannelDetail{
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ChannelDetail > div{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DetailChannelPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#DetailChannelName{
+    color: white;
+    margin: 3px;
+    font-size: 24px;
+}
+
+#DeatilSubscriberCount{
+    color: #aaaaaa;
+    margin: 3px;
+    font-size: 14px;
+}
+
+#SubscribeButton{
+    margin-right: 20px;
+}
+
+
+/* Tabs */
+#Tabs{
+    
+}
+
+#TabButtons{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto 0 auto;
+}
+
+#TabPages{
+    width: 80%;
+    height: fit-content;
+    margin: 20px auto 0 auto;
+}
+
+.TabButton{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border: solid 2px red;
+    background-color: transparent;
+    color: #aaaaaa;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.ActiveTabButton{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: #aaaaaa;
+    border-bottom: solid 2px #aaaaaa;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.TabPage{
+    display: none;
+}
+
+.ActiveTabPage{
+    display: block;
+    color: white;
+}
+
+/* ChanelVideos */
+
+.ChannelVideo{
+
+}
+
+.ChannelVideoImageContainer{
+
+}
+
+.ChannelViedoInfo{
+
+}
+
+.ChannelVideoTitle{
+
+}
+
+.ChannelVideoViews{
+    
+}

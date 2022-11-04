@@ -1,0 +1,369 @@
+
+/* Video Detail */
+
+#VideoDetail{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  margin-top: 78px;
+  margin-left: 40px;
+}
+
+#VideoSide{
+
+  /*border: solid 2px teal;*/
+}
+
+#NextVideoSide{
+  margin-left: 20px;
+  height: 800px;
+}
+
+#Video{
+  width: 100%;
+}
+
+#VideoInfo{
+  border-bottom: solid 1px rgb(72, 72, 72);
+  margin-bottom: 15px;
+}
+
+#VideoTitleContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+#VideoTitle{
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;  
+  margin-bottom: 10px;
+}
+
+#VideoView{
+  color: #aaaaaa;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+#UserActionsContainer{
+  position: relative;
+  width: 350px;
+}
+
+#VideoUserActions{
+  display: flex;
+  width: fit-content;
+  position: absolute;
+  bottom: 0;
+}
+#VideoUserActions > div{
+  border:none;
+  background-color: transparent;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+#VideoUserActions > div > img{
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+#VideoUserActions > div > p{
+  color: #aaaaaa;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/*
+#LikeContainer, #DislikeContainer {
+  border-bottom: solid 2px #aaaaaa !important;
+}*/
+
+.LikeDislikeUnderline{
+  border-bottom: solid 2px #aaaaaa !important;
+}
+
+.LikeDislikeUnderlineActive{
+  border-bottom: solid 2px rgb(67, 128, 185) !important;
+}
+
+#MoreButton{
+  cursor: pointer;
+}
+
+
+#VideoDescription{
+  border-bottom: solid 1px rgb(72, 72, 72);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#VideoChannel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#VideoChannelInfo{
+  display: flex;
+}
+
+#VideoChannelPhoto{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#VideoChannelInfo > div{
+  margin: auto 0 auto 10px;
+}
+
+#VideoChannelName{
+  color: white;
+  font-family: "Robot", sans-serif;
+  margin: 0;
+  font-size: 14px;
+}
+
+#VideoSubCount{
+  color: #aaaaaa;
+  font-family: "Robot", sans-serif;
+  margin: 0;
+  font-size: 13px;
+}
+
+#SubscribeButton{
+  width: 100px;
+  height: 37px;
+  color: white;
+  font-size: 13px;
+  font-family: "Robot", sans-serif;
+  background-color: #cc0000;
+  border:none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#SubscribeButtonActive{
+  width: 100px;
+  height: 37px;
+  color: rgb(46, 45, 45);
+  font-size: 13px;
+  font-family: "Robot", sans-serif;
+  background-color: #7e7d7d;
+  border:none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#DecriptionTextContainer{
+  margin-left: 55px;
+  margin-top: 10px;
+}
+#VideoDescriptionText{
+  font-size: 16px;
+  color: white;
+  /*height: 100px;*/
+  overflow: hidden;
+  transition: 1s;
+}
+
+#VideoDescriptionTextActive{
+  font-size: 16px;
+  color: white;
+  height: fit-content;
+  transition: 1s;
+}
+
+#ShowMoreButton{
+  background-color: transparent;
+  border:none;
+  color: #aaaaaa;
+  font-weight: 700;
+  cursor: pointer;
+  padding-left: 0;
+  font-size: 12px;
+}
+
+
+#CommentsContainer{
+
+}
+
+#CommentCount{
+  display: flex;
+}
+
+#CommentCount>p{
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 20px;
+}
+
+#SortCommentsButton{
+  background-color: transparent;
+  color: #aaaaaa;
+  border:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#AddCommentContainer{
+  display: flex;
+  width: 100%;
+}
+
+#AddCommentUserImage{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 20px;
+}
+
+#AddCommentForm{
+  width: 90%;
+}
+
+#AddCommentForm > input{
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px #aaaaaa;
+  color: white;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+#MakeCommentButton{
+  background-color: #3EA6FF;
+  border: none;
+  width: 100px;
+  height: 40px;
+  float: right;
+  cursor: pointer;
+}
+
+#Comments{
+  margin-top: 30px;
+}
+
+.Comment{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.CommentOwnerImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.CommentTitle{
+  display: flex;
+  align-items: center;
+}
+
+.CommentOwner{
+  color: white;
+  margin: 3px;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.CommentPostDate{
+  color: #aaaaaa;
+  margin: 3px;
+  margin-top: 0;
+  font-size: 13px;
+}
+
+.CommentText{
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.CommentButtons{
+  display: flex;
+  align-items: center;
+}
+
+.CommentButtons > img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.CommentLikeCount{
+  font-size: 13px;
+  color: #aaaaaa;
+  margin-right: 10px;
+}
+
+.ReplyCommentButton{
+  background-color: transparent;
+  color: #aaaaaa;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+
+.NextVideo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 94px;
+}
+
+.NextVideoCover{
+  width: 168px;
+  height: 94px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.VideoDetails{
+  height: 100%;
+}
+
+.NextVideoTitle{
+  color: white;
+  margin: 3px;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.NextVideoChannelName{
+  color: #aaaaaa;
+  margin: 3px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.NextVideoChannelName:hover{
+  color: #ece9e9;
+}
+
+.NextVideoViewCount{
+  color: #aaaaaa;
+  margin: 3px;
+  font-size: 13px;
+}

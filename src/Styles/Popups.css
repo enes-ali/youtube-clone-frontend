@@ -1,0 +1,115 @@
+/* Popups */
+
+.BasePopup{
+  background-color: rgba(32, 32, 32, 0.98);
+  position: fixed;
+  z-index: 1;
+  top: 56px;
+  right: 40px;
+  border: solid 1px rgb(72, 72, 72);
+  border-top: none;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.ClosedPopup{
+  display: none;
+}
+
+.PopupIndex{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+}
+
+.PopupIndex > img{
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 22px;
+  height: 22px;
+}
+
+.PopupIndex > p{
+  color: white;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.PopupIndex:hover{
+  background-color: rgb(72, 72, 72);
+}
+
+#AddVideoPopupActive{
+  display: block;
+  width: 176px;
+  height: 96px;
+}
+#AddVideoPopup{
+  display: none;
+}
+
+#AppsPopup{
+  display: none;
+}
+#AppsPopupActive{
+  display: block;
+  width: 188px;
+  height: 192px;
+}
+
+#NotificationsPopupActive{
+  display: block;
+  width: 388px;
+  height: 492px;
+}
+#NotificationsPopup{
+  display: none;
+}
+
+#SettingsPopupActive{
+  display: block;
+  width: 250px;
+  height: 400px;
+}
+#SettingsPopup{
+  display: none;
+}
+
+#AccountPopup{
+  display: none;
+}
+
+#AccountPopupActive{
+  display: block;
+  width: 320px;
+  height: 100%;
+}
+
+#AccountInfo{
+  display: flex;
+  border-bottom: solid 1px rgb(72, 72, 72);
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+#AccountInfo > img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0 20px 0 20px;
+}
+
+#AccountInfo > div > p{
+  color: white;
+  margin: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+#AccountUsername{
+  font-size: 16px;
+}
+#AccountEmail{
+  font-size: 14px;
+}
